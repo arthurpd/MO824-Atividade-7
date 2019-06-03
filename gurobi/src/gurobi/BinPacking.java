@@ -29,9 +29,14 @@ public class BinPacking {
 		 * 2,132,133
 		 * 3,132,133
 		 * 4,198,199
+		 * 5,198,199
+		 * 6,265,266
+		 * 7,265,266
+		 * 8,332,347
+		 * 9,332,353
 		 */
 
-		Reader fileInst = new BufferedReader(new FileReader("../bpp_instances/instance5.bpp"));
+		Reader fileInst = new BufferedReader(new FileReader("../bpp_instances/instance9.bpp"));
 		StreamTokenizer stok = new StreamTokenizer(fileInst);
 
 		stok.nextToken();
